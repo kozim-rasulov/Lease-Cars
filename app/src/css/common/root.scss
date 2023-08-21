@@ -1,0 +1,12 @@
+:root {
+  // --bg: #000;
+  // --color: #fff;
+  // --font-first: Arial, san-serif;
+  // --font-second: "Times New Roman";
+}
+
+@mixin media($size){
+  @media (max-width: #{$size}px) {
+    @content;
+  }
+}
