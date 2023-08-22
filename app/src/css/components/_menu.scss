@@ -1,0 +1,10 @@
+.menu {
+    &__list {
+        display: flex;
+        gap: 35px;
+    }
+    &__list-link {
+        color: var(--secondColor);
+        font-weight: 700;
+    }
+}

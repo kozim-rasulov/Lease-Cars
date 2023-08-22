@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var swiper=new Swiper(".swiper",{effect:"fade",pagination:{el:".swiper-pagination"},autoplay:{delay:3e3,disableOnInteraction:!1}});

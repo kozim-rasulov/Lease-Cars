@@ -1,0 +1,22 @@
+.header {
+    background-color: var(--mainColor);
+    &_main {
+        background-color: transparent;
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        right: 0;
+    }
+    &__inner {
+        padding-top: 40px;
+        padding-bottom: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+.logo {
+    &__img {
+        display: block;
+    }
+}
