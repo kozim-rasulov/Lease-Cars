@@ -6,5 +6,8 @@
     &__list-link {
         color: var(--secondColor);
         font-weight: 700;
+        &_active {
+            color: var(--thirdColor);
+        }
     }
 }

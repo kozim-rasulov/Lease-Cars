@@ -1,0 +1,78 @@
+.chooseCar {
+    padding: 100px 0 150px;
+}
+
+.tabs {
+    margin-bottom: 70px;
+    &__btn {
+        padding: 0 150px;
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+        padding-bottom: 100px;
+
+        &-item {
+            font-size: 24px;
+            font-weight: 700;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            padding: 0;
+
+            &_active {
+                color: var(--thirdColor);
+            }
+        }
+    }
+
+    &__content {
+        &-item {
+            display: none;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 100px 40px;
+            &_active {
+                display: grid;
+            }
+        }
+    }
+}
+
+.card {
+    text-align: center;
+
+    &__img {
+        display: block;
+    }
+    &__content {
+        padding: 0 5px;
+        border: 1px solid var(--thirdColor);
+        border-top: 0;
+        &:last-child {
+            padding: 0;
+        }
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+    }
+
+    &__price {
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__link {
+        display: block;
+        color: var(--thirdColor);
+        border-top: 1px solid var(--thirdColor);
+    }
+
+}

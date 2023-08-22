@@ -1,0 +1,28 @@
+.blog {
+    padding-bottom: 150px;
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-bottom: 70px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &-img {
+            margin-bottom: 30px;
+            width: 100%;
+        }
+        &-title {
+            flex-basis: 446px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        &-link {
+            color: var(--secondColor);
+            background-color: var(--thirdColor);
+            padding: 4px 20px;
+        }
+    }
+}
